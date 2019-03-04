@@ -10,7 +10,7 @@ end
 
 def countdown_with_sleep(count)
   loop do
-    sleep(5)
+    sleep(1)
     puts "#{count} SECOND(S)!"
     count -= 1
     break if count == 0
