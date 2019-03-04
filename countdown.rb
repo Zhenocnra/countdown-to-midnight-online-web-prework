@@ -1,5 +1,5 @@
 def countdown(seconds)
-  count = [0..seconds]
+  count = 
   while count > seconds
     phrase = "#{count} SECOND(S)!"
     puts phrase
