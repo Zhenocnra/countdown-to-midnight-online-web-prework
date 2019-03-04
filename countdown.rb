@@ -8,7 +8,7 @@ def countdown(count)
 end
 
 
-def countdown_with_sleep
+def countdown_with_sleep(count)
   loop do
     sleep(1)
     puts "#{count} SECOND(S)!"
