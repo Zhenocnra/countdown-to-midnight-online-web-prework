@@ -1,19 +1,18 @@
 def countdown(count)
-  loop do
+  while count > 0
     puts "#{count} SECOND(S)!"
     count -= 1
     break if count == 0
   end
-  puts "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 
 def countdown_with_sleep(count)
-  loop do
-    sleep(1)
+  while count > 0
     puts "#{count} SECOND(S)!"
     count -= 1
-    break if count == 0
+    sleep(1)
   end
-  puts "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
