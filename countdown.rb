@@ -1,5 +1,5 @@
 def countdown
-  
+  count
   end
   puts "HAPPY NEW YEAR!"
 end
