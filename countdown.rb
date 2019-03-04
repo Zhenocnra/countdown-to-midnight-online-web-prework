@@ -1,4 +1,4 @@
-def countdown(seconds)
+def countdown(count)
   count = 
   while count > seconds
     phrase = "#{count} SECOND(S)!"
